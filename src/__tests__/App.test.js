@@ -96,7 +96,7 @@ test("the page shows information the user types into the contact form field", ()
   expect(contact).toHaveValue("pizzafan@email.com");
 });
 
-// Submit Order button
+// Submit button
 test("form contains a 'Submit Order' button", () => {
   render(<App />);
 
